@@ -97,6 +97,8 @@ function multiplesOfFiveBackwards() {
 
 //call function multiplesOfFiveBackwards
 
+ alert("Adiciono os exs. de quadrado perfeito amanhã")
+
 function squareNumbersBackwards() {
     
    /* Your code goes below
