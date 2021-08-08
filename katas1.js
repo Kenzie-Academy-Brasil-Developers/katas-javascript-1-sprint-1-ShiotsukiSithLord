@@ -44,10 +44,29 @@ function multiplesOfFive() {
 
 function squareNumbers() {
   
- 
-}
+  let resultado = [];
+  let sqt = Math.pow();
+  let x = Math.sqrt() == Number.isInteger();
+  let z = Number.isInteger([]);
 
-//call function squareNumbers
+
+ for ( let i = 1; i < 11; i++) {
+     resultado += (i * i) + " ";
+     if (Math.sqrt(i) == z & Math.sqrt(i) >= 1){
+         resultado += i;
+
+     }
+     
+     
+   
+ }
+
+
+
+ return resultado
+}
+console.log(squareNumbers())
+
 
 function countingBackwards() {
   let resultado = [];
@@ -97,13 +116,23 @@ function multiplesOfFiveBackwards() {
 
 //call function multiplesOfFiveBackwards
 
- alert("Adiciono os exs. de quadrado perfeito amanhã")
-
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+    let resultado = [];
+    let x = Math.sqrt() == Number.isInteger();
+    let z = Number.isInteger([]);
 
-//call function squareNumbersBackwards
+
+   for ( let i = 10; i > 0; i--) {
+       resultado += (i * i) + " ";
+       if (Math.sqrt(i) == z & Math.sqrt(i) >= 1){
+           resultado += i;
+
+       } 
+   }
+  
+
+
+   return resultado
+}
+console.log(squareNumbersBackwards())
